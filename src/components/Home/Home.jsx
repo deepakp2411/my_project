@@ -5,8 +5,8 @@ import homeLogo from '../../assets/images/home.png';
 const Home = () => {
   return (
     <>
-        <div className='home__container'>      
-        <img  src={homeLogo} alt='homeLogo' /> 
+        <div className='home_container'>      
+        <img  src={homeLogo} alt='homeLogo' className='home_Logo' /> 
         
         </div>
     </>
